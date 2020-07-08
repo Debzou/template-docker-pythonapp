@@ -7,7 +7,7 @@ sudo chmod +x start.sh
 sudo ./start.sh
 ```
 
-## VENV
+## VENV :bulb:
 
 ### activate venv
 
