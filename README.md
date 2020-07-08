@@ -6,3 +6,30 @@ A simple app template using docker
 sudo chmod +x start.sh
 sudo ./start.sh
 ```
+
+## VENV
+
+### activate venv
+
+```sh
+virtualenv -p python3 venv
+cd ./venv/bin/
+source activate
+```
+### in venv - install library
+
+```sh
+pip install library
+```
+
+### in venv - launch (dev)
+
+```sh
+python ../../main.py
+```
+
+### in venv - generate requirements.txt (prod)
+
+```sh
+pip freeze > ../../requirements.txt
+```
