@@ -2,9 +2,18 @@
 A simple app template using docker
 
 ## Start template with docker :whale2:
+
+unix
+
 ```sh
 sudo chmod +x start.sh
 sudo ./start.sh
+```
+
+windows
+
+```sh
+docker build -t pythonapp .
 ```
 
 ## VENV :bulb:
